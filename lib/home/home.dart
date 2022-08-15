@@ -1,3 +1,4 @@
+import 'package:contactex/home/contactList/contact_list_page.dart';
 import 'package:flutter/material.dart';
 
 
@@ -10,14 +11,6 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,10 +20,14 @@ class _HomeState extends State<Home> {
           IconButton(onPressed: (){}, icon: Icon(Icons.more_vert))
         ],
       ),
-      body: Container(),
-      floatingActionButton:FloatingActionButton(
-        onPressed: (){},
-        child: Icon(Icons.add),
+      body: ContactListPage(),
+      floatingActionButton:SizedBox(
+        height: 45,
+        width: 45,
+        child: FloatingActionButton(
+          onPressed: (){},
+          child: Icon(Icons.add),
+        ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
     }
