@@ -23,9 +23,15 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        actions: [
+          IconButton(onPressed: (){}, icon: Icon(Icons.more_vert))
+        ],
       ),
       body: Container(),
-      floatingActionButton:Container(), // This trailing comma makes auto-formatting nicer for build methods.
+      floatingActionButton:FloatingActionButton(
+        onPressed: (){},
+        child: Icon(Icons.add),
+      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
     }
 }

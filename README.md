@@ -1,16 +1,10 @@
-# contactex
 
-A new Flutter project.
+# Contactex
 
-## Getting Started
+Contactex is a contact management application for your ios and android devices. Unlike other contact management apps, it is very light weight and user friendly.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Authors
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [@aritro-rakshit](https://github.com/aritro-rakshit)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
