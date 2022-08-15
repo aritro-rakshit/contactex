@@ -40,7 +40,6 @@ class _ContactListPageState extends State<ContactListPage> {
         },
         listener: (context, state) {
          if(state is ContactFetchedState){
-           print("Contact Fetched!");
          }
         },
       ),
